@@ -20,7 +20,7 @@ def load_data(
 ):
     return load_dataset_from_gcs(
         project_id='cnn-deblur',
-        bucket_name='cnn-d3blur-buck3t',
+        bucket_name='cnn-d3blur-bucket',
         prefix='cifar10',
         res=(32, 32),
         val_size=val_size,
